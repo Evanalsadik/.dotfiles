@@ -1,0 +1,37 @@
+[user]
+	email = erikdexter21@gmail.com
+	user = erik dexter
+  name = erik dexter
+
+[init]
+  defaultBranch = main
+
+[core]
+  editor = nvim
+
+[web]
+  browser = google-chrome
+
+[github]
+	user = pksunkara
+  #token = token # TODO : fill token with exact value
+
+[alias]
+  a = add --all
+  ba = branch -a
+  bd = branch -D
+  ca = commit --amend
+  cm = commit -m
+  ch = checkout
+	chm = checkout master
+	chb = checkout -b
+  l = log --oneline --graph --all --format=email
+  ls = log --oneline --graph --all --format=email --stat
+  m = merge
+  ps = push
+  psm = push -u origin main
+  pl = pull
+  rb = rebase
+  r = remote
+  s = status
+

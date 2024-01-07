@@ -25,8 +25,8 @@
   ch = checkout
 	chm = checkout master
 	chb = checkout -b
-  l = log --oneline --graph --all --format=email
-  ls = log --oneline --graph --all --format=email --stat
+  l = log --oneline --graph --all --abbrev-commit
+  ls = log --oneline --graph --all --stat
   m = merge
   ps = push
   psm = push -u origin main
@@ -34,4 +34,4 @@
   rb = rebase
   r = remote
   s = status
-
+  sq = rebase main --interactive
